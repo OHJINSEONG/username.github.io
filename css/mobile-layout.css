@@ -1,0 +1,215 @@
+@media(max-width: 1024px){ 
+    header{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    header > div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    header > div > div{
+        display: flex;
+        border-top: .5px solid rgb(236,236,236);
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    body > article#greeting{
+        display: flex;
+        height: auto;
+        width: 105vw;
+        flex-direction: column;
+    }
+
+    body > article#greeting > div{
+        display: flex;
+        height: 100vw;
+        width: 80vw;
+        margin-right: 35px;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    body > article#greeting h2{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding-left: 10px;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 4vw;
+    }
+
+    body > article#greeting ul{
+        display: flex;
+        margin-top: 4vw;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body > article#greeting dl{
+        display: grid;
+        width: 100%;
+        grid-template: repeat(4,minmax(min-content,1fr))/ repeat(2,minmax(min-content,1fr));
+    }
+
+    body > article#projects{
+        display: flex;
+        background-color: rgb(254,230,166);
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+    body > article#projects section{
+        display: flex;
+        background-color: rgb(254,230,166);
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4%;
+    }
+
+    body > article#projects ul{
+        display: flex;
+        background-color: rgb(254,230,166);
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
+    body > article#projects li{
+        display: flex;
+        height: 80vw;
+        width: 100%;
+        font-size: 5vw;
+        flex-direction: column;
+    }
+
+    body > article#projects section > div{
+        display: flex;
+        margin-top: 22vw;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+        font-size: 3.5vw;
+    }
+
+    body > article#exprience{
+        display: flex;
+        height: auto;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    body > article#exprience section{
+        display: flex;
+        margin-top: 27%;
+        margin-bottom: 10%;
+        height: 100%;
+        width: 90vw;
+        flex-direction: column;
+    }
+    
+    body > article#exprience ul{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    body > article#exprience section > div{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 3.5vw;
+    }
+
+    body > article#exprience section li{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-items: start;
+        grid-template: repeat(2,minmax(min-content,1fr)) / repeat(2,minmax(min-content,1fr));
+        font-size: 4vw;
+    }
+
+    body > article#retrospects section > div{
+        display: flex;
+        margin-top: 30vw;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+        font-size: 3.5vw;
+    }
+
+    body > article#retrospects{
+        display: flex;
+        height: auto;
+        width: 200vw;
+        overflow: scroll;
+    }
+
+    body > article#retrospects section{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-bottom: 15%;
+        overflow: scroll;
+    }
+
+    body > article#retrospects ul{
+        display: flex;
+        height: 100%;
+        width: 500vw;
+        flex-direction: row;
+        overflow: scroll;
+    }
+
+    body > article#contact{
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    body > article#contact section{
+        display: flex;
+        margin-top: 20%;
+        height: auto;
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    body > article#contact section > div{
+        display: flex;
+        margin-top: 20%;
+        height: auto;
+        width: 80vw;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+} 
