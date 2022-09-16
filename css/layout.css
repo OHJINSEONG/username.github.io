@@ -1,0 +1,191 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+
+    border-bottom: 1px solid  rgb(236,236,236);
+}
+
+header > div{
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgb(223,135,45);
+}
+
+article#greeting{
+    display: flex;
+    height: 700px;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+article#greeting div > *{
+    padding-bottom: 15px;
+}
+
+article#greeting h2{
+    display: flex;
+    height: min-content;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+article#greeting ul{
+    display: flex;
+    flex-direction: row;
+}
+
+article#greeting dl{
+    display: grid;
+    margin-top: 50px;
+    height: 100px;
+    width: auto;
+    grid-template:1fr 1fr / 1fr minmax(min-content,2fr) 1fr minmax(min-content,2fr);
+    justify-content: start;
+}
+
+article#projects{
+    display: flex;
+    height: 700px;
+    width: 100%;
+
+    background: linear-gradient( rgb(254,230,166) 50%, #ffffff 50%);
+    justify-content: center;
+    align-items: center;
+}
+
+article#projects section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+}
+
+article#projects ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+article#projects li{
+    display: flex;
+    border: 0.5px solid rgb(236,236,236);
+    border-radius: 30px;
+    min-height: 400px;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    margin: 1.5%;
+}
+
+article#projects a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+section > div:not(.contact){
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-self: start;
+    padding-bottom: 50px;
+    color: rgb(223,135,45);
+}
+
+article#exprience{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+article#exprience section{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+article#exprience li{
+    display: grid;
+    border-bottom: 0.5px solid;
+    padding: 30px 20px;
+    grid-template-columns: 20% 60% 20%;
+    width: 100%;
+}
+
+article#retrospects{
+    display: flex;
+    background-color: rgb(254,230,166);
+    height: 1050px;
+    justify-content: center;
+    align-items: center;
+}
+
+article#retrospects section{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+article#retrospects ul{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(4,1fr);
+    gap: 10px 10px;
+}
+
+article#contact{
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+article#contact section{
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+article#contact section > div{
+    border: 1px solid rgb(236,236,236);
+    border-top: 1.5px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 60px 50px;
+    align-items: center;
+    flex-direction: row;
+}
+
+article#contact ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    width: 330px;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    border-top: 1px solid rgb(236,236,236);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
