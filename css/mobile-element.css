@@ -1,10 +1,10 @@
 @media(max-width: 1024px){ 
     html body{
+        width: 100%;
         overflow-x: hidden;
-        overflow-y: auto;
     }
 
-    header h1{
+    html header h1{
         display: flex;
         width: 100%;
         padding: 2vw;
@@ -12,19 +12,24 @@
         font-size: 5vw;
     }
     
-    header a:nth-of-type(4){
+    html header a:nth-of-type(4){
         position: absolute;
         top:3.3vw;
         right: 7vw; 
         font-size: 3vw;
     }
 
-    header a:not(.contact){
+    html header a:not(.contact){
         display: flex;
         font-size:3vw;
         padding: 6vw;
         width: 100%;
         justify-content: center;
+    }
+
+    body > article#greeting{
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     body > article#greeting strong{
@@ -129,5 +134,9 @@
 
     body > article#contact p{
         font-size: 2.7vw;
+    }
+
+    body > article#contact img:nth-of-type(3){
+        max-height: 300px;
     }
 }
