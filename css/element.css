@@ -10,8 +10,8 @@ h1{
 
 aside{
     position: fixed;
-    top: 500px;
-    left: 1350px;
+    top: 70%;
+    left: 90%;
 }
 
 h2{
@@ -202,7 +202,10 @@ header a:not(.contact):hover {
 header a.contact:hover {
     background-color: white;
     color: rgb(223,135,45);
-    
+}
+
+#projects li:hover {
+    scale: 1.05;
 }
 
 #retrospects li p{
